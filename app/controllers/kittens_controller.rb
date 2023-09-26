@@ -35,7 +35,7 @@ class KittensController < ApplicationController
     private
 
     def kitten_params
-        params.permit(:name, :breed, :color, :gender, :image)
+        params.permit(:name, :breed, :color, :gender, :image, :foster_id, :litter_id, :shelter_id)
     end
 
     def find_kitten

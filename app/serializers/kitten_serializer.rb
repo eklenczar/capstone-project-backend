@@ -1,3 +1,3 @@
 class KittenSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :name, :breed, :color, :gender, :image
 end
